@@ -1,0 +1,46 @@
+#gallery  {
+    h2 {
+    text-align: center;
+    padding: 30px 0px;
+    
+    }
+    p {
+        font-size: $small;
+        font-weight: $light-custom;
+        color: $gray;
+        text-align: left;
+        padding-left: 30px;
+       
+        
+    }
+    h3 {
+        font-size: $size-medium;
+        font-weight: $bold;
+        color: $dark-jungle;
+        margin-bottom: 20px;
+        text-align: left;
+        padding-top: 15px;
+        padding-left: 28px;
+        
+    }
+}
+
+.gallery__videos {
+    text-align: center;
+}
+
+
+
+.gallery__videos-img img{
+    height: 150px;
+}
+
+
+/* Esto es cuando se ve desktop */
+@media (min-width: 576px) {
+
+    .gallery__videos-img img{
+        height: 130px;
+    }
+
+}

@@ -1,0 +1,38 @@
+#navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#navbar-menu a {
+    color: black;
+}
+
+
+.navbar__logo {
+    font-weight: $bold;
+    font-size: $large;
+    font-family: $montserrat;
+}
+
+.nabvar__logo-sup {
+    font-size: $small;
+    font-weight: $light-custom;
+    top: -1.5em;
+}
+
+.icon-burger {
+    display: none;
+}
+
+/* Esto es cuando se ve desktop */
+@media (min-width: 576px) {
+
+    .icon-burger {
+        display: block;
+    }
+
+}
+
+

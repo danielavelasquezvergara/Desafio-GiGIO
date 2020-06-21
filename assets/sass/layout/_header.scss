@@ -1,0 +1,41 @@
+.header__foto-principal {
+    height: 200px;
+    background: url(../img/image-banner.png);
+    background-size: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 250px;
+}
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header__profile_button {
+    display: none;
+}
+
+.separacion__header {
+    display: none;
+}
+
+/* Esto es cuando se ve desktop */
+@media (min-width: 576px) {
+
+    .header__profile_button {
+        display: block;
+    }
+
+    .header__foto-principal {
+        height: 400px;
+    }
+
+    .separacion__header {
+        display: block;
+    }
+
+}
